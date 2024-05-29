@@ -1,5 +1,5 @@
-body, html{
-    height: 100px;
+body, html {
+    height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -7,31 +7,32 @@ body, html{
     font-family: Arial, sans-serif;
 }
 
-#game{
+#game {
     text-align: center;
 }
 
-#board{
+#board {
     margin-bottom: 20px;
 }
 
-.cell{
+.cell {
     width: 60px;
     height: 60px;
     border: 2px solid #333;
-    display: inline-flex;
+    display: inline-flex; /* Change to inline-flex */
     justify-content: center;
-    align-items: center;font-size: 2em;
+    align-items: center;
+    font-size: 2em;
 }
 
-.correct{
-    background-color: rgb(26, 212, 26);
+.correct {
+    background-color: green;
 }
 
-.present{
-    background-color: yellow;
+.present {
+    background-color: gold;
 }
 
-.absent{
+.absent {
     background-color: grey;
 }
