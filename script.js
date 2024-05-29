@@ -61,10 +61,10 @@ submit.addEventListener('click', function() {
     }
 });
 
-    input.addEventListener('keyup', function(event){
-        if(event.key === "Event"){
-            submit.click();
-        }
-    })
+input.addEventListener('keyup', function(event) {
+    if (event.key === "Enter") {
+        submit.click();
+    }
+});
 
-    initializeBoard()
+initializeBoard();
